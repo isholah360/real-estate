@@ -1,4 +1,4 @@
-import { CursorContext } from "../Providers/cursorProvider";
+import { CursorContext } from "../providers/cursorProvider";
 
 export default function withAppContext(Component) {
   return function WrapperComponent(props) {
