@@ -1,17 +1,17 @@
 .find-home{
-    height: 85vh;
+    height: 90vh;
     width: 100vw;
-    background-color: #f7f4f1;
-       
+    background-color: #f7f7f7;
+    padding: 1rem 5%;
 }
 .home-imgs{
     width: 35vw;
     padding: 0 .8rem;
 }
 .main-img-bg{
-    background-color: #f7f7f7;    
+    background-color: #e7e2dd;   
     padding:.5rem;
-    height: 53vh;  
+    height: 56.5vh;  
 }
 
 .actual-width{

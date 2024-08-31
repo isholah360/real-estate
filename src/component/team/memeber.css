@@ -35,16 +35,19 @@ padding: -1rem 0;
   font-size: 1.3rem;
   padding: .8rem 0; 
   margin: 11rem 0 0 0;
+  color: #B19777 ;
  }
  .mem-detail-socials .member-name .rank{
     font-weight: 330;
     font-size: 1.2rem;
+    color: white;
    }
 .mem-details{
     margin: .5rem 0;
     font-weight: 300;
     font-family: roboto;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
+    font-size: .95rem;
  
     /* display: none; */
 }

@@ -9,12 +9,12 @@ import { gsap } from 'gsap'
 
    
     const show = ()=>{
-        gsap.fromTo([mref.current,], {height:"10vh",}, {height:"45vh", top:"25%"}, )
+        gsap.fromTo([mref.current,], {height:"10vh",}, {height:"45.5vh", top:"25%"}, )
         gsap.fromTo([name.current], {display:"none", y:".5rem"}, {display:"block", y:"-4rem", }, )
         gsap.fromTo([ref.current, sref.current], { y:"10rem"}, {y:".5rem", delay: 1, stagger: .2}, )
     }
     const blank = ()=>{
-        gsap.fromTo([mref.current,], {height:"45vh"}, {height:"10vh", top:"86%"}, )
+        gsap.fromTo([mref.current,], {height:"45.5vh"}, {height:"10vh", top:"86%"}, )
         gsap.fromTo([name.current], {display:"none", y:"-4rem",}, {display:"block", y:".5rem",}, )
         gsap.fromTo([ref.current, sref.current], { y:".5rem"}, {y:"10rem", delay: 1 }, )
         

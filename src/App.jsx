@@ -1,7 +1,7 @@
-
-import CursorProvider from './component/providers/cursorProvider'
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import { About, Brand, Find, Head, Team } from './component';
+import Footer from "./component/footer/footer";
+import CursorProvider from "./component/providers/cursorProvider";
 
 // import Sides from './Sides';
 
@@ -9,11 +9,8 @@ export default function App() {
   return (
     <CursorProvider>
       <div className="App">
-        <Head/>
-        <About/>
-        <Brand/>
-        <Find/>
-        <Team/>
+        <Outlet />
+        <Footer />
       </div>
     </CursorProvider>
   );
